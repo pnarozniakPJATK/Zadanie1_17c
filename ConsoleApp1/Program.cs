@@ -10,9 +10,9 @@ Console.WriteLine("Modification 3");
 
 return;
 
-static double CalculateAverage(int[] integers)
+static double CalculateAverage(int[] array)
 {
-    return integers.Average();
+    return array.Average();
 }
 
 static double GetMaxValue(int[] integers)
