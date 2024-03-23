@@ -7,3 +7,10 @@ Console.WriteLine("Modification 1");
 Console.WriteLine("Modification 2");
 
 Console.WriteLine("Modification 3");
+
+return;
+
+static double CalculateAverage(int[] ints)
+{
+    return ints.Average();
+}
